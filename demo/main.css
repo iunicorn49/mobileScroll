@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background: #f2f2f2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#box {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  border: 2px solid #585858;
+  height: 60px;
+  width: 90%;
+}
+
+#content {
+  height: 100%;
+  width: 150%;
+  background-image: linear-gradient(to right, #ff5d5d 0%, #000 100%);
+}
+
+#box2 {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  border: 2px solid #585858;
+  height: 80%;
+  width: 60px;
+}
+
+#content2 {
+  height: 150%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #ff5d5d 0%, #000 100%);
+}
