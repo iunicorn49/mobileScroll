@@ -7,8 +7,8 @@
 使用方法:
 
 mobileScroll({
-  main: '#box2', // 容器(选择器, 字符类型), 必须
-  content: '#content2', // 内容(选择器, 字符类型), 必须
+  main: '#box', // 容器(选择器, 字符类型), 必须
+  content: '#content', // 内容(选择器, 字符类型), 必须
   limit: 100, // 界限值(数值类型), 不传默认为 50, 单位(px)
   direction: 'lengthways', // 方向, 设置 'lengthways' 即为纵向, 不设置默认为横向
   transition: 2, // 过度时间(数值类型), 单位(秒/s), 不设置默认为 .5s
